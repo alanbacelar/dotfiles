@@ -10,6 +10,7 @@ ZSH_THEME="robbyrussell"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias subl='open -a "/Applications/Sublime Text.app"'
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
