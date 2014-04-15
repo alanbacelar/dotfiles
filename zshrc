@@ -54,8 +54,8 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -73,3 +73,6 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+# export path to php 5.5 installationi
+export PATH=/usr/local/php5/bin:$PATH
