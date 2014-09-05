@@ -76,3 +76,6 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"
 
 # export path to php 5.5 installationi
 export PATH=/usr/local/php5/bin:$PATH
+export PATH=/usr/local/Cellar/postgresql/9.3.4/bin:$PATH
+
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home"
