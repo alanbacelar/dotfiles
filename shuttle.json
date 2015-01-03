@@ -1,0 +1,82 @@
+{
+	"_comments": [
+		"Valid terminals include: 'Terminal.app' or 'iTerm'",
+		"Hosts will also be read from your ~/.ssh/config or /etc/ssh_config file, if available",
+		"For more information on how to configure, please see http://fitztrev.github.io/shuttle/"
+	],
+	"terminal": "iTerm",
+	"launch_at_login": true,
+	"show_ssh_config_hosts": true,
+	"ssh_config_ignore_hosts": [],
+	"ssh_config_ignore_keywords": [],
+	"hosts": [
+		{
+			"name": "My Dev Server",
+			"cmd": "ssh username@dev.example.com"
+		},
+		{
+			"Personal": [
+				{
+					"name": "Meu site",
+					"cmd": "ssh username@blog.example.com"
+				}
+			]
+		},
+		{
+			"Semente Digital": [
+				{
+					"name": "Consult - 162.243.31.217",
+					"cmd": "ssh root@162.243.31.217"
+				},
+				{
+					"name": "Prolivie (SugarCRM)",
+					"cmd": "ssh proli@prolivie.com.br -p 2222"
+				},
+				{
+					"name": "GO! GPS - JAVA",
+					"cmd": "ssh root@162.243.53.202 -AX"
+				},
+				{
+					"name": "GO! GPS - PHP",
+					"cmd": "ssh root@104.131.228.54 -AX"
+				}
+			]
+		},
+		{
+			"Vagrant": [
+				{
+					"name": "precise32",
+					"cmd": "ssh vagrant@127.0.0.1 -p 2222 -i ~/.vagrant.d/insecure_private_key"
+				}
+			]
+		},
+		{
+			"PolibrásNet": [
+				{
+					"name": "Polibr99 (webmaster)",
+					"cmd": "ssh webmaster@polibr99 -AX"
+				},
+
+				{
+					"name": "Polibr99 (root)",
+					"cmd": "ssh root@polibr99 -AX"
+				},
+
+				{
+					"name": "SyncOn",
+					"cmd": "ssh polibras@syncon.polibr.com.br -AX"
+				},
+
+				{
+					"name": "Test - SyncOn",
+					"cmd": "ssh polibras@192.168.6.102 -AX"
+				},
+
+				{
+					"name": "OSI2",
+					"cmd": "ssh root@192.168.20.127 -AX"
+				}
+			]
+		}
+	]
+}
