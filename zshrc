@@ -49,12 +49,15 @@ alias subl='open -a "/Applications/Sublime Text.app"'
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git common-aliases)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"
+
+#Postgres App configuration
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
