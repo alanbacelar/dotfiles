@@ -59,6 +59,10 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"
 #Postgres App configuration
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
 
+# Composer Vendors
+export PATH=$PATH:~/.composer/vendor/bin
+
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
