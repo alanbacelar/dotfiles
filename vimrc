@@ -1,3 +1,5 @@
+execute pathogen#infect()
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -17,7 +19,7 @@ let mapleader = ","
 let g:mapleader = ","
 
 " Fast saving
-nmap <leader>w :w!<cr>
+    nmap <leader>w :w!<cr>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -82,6 +84,7 @@ set tm=500
 syntax enable
 
 colorscheme desert
+" colorscheme solarized
 set background=dark
 
 " Set extra options when running in GUI mode
@@ -351,3 +354,4 @@ function! <SID>BufcloseCloseIt()
      execute("bdelete! ".l:currentBufNum)
    endif
 endfunction
+

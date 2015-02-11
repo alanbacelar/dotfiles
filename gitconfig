@@ -22,3 +22,5 @@
     ;tool = Kaleidoscope
 [push]
 	default = current
+[color]
+	ui = true

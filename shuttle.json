@@ -32,6 +32,11 @@
 						{
 							"name": "Buena Paleta",
 							"cmd": "ssh buena@192.185.216.82 -p 2222"
+						},
+
+						{
+							"name": "Buena Paleta (com senha)",
+							"cmd": "ssh buena@192.185.216.82 -p 2222 -o 'IdentitiesOnly yes'"
 						}
 					]
 				}
