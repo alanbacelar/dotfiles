@@ -11,6 +11,10 @@ ZSH_THEME="robbyrussell"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias subl='open -a "/Applications/Sublime Text.app"'
+alias artisan='php artisan'
+
+#Turn colors on
+CLICOLOR=1
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -84,5 +88,11 @@ export PATH=$PATH:~/.composer/vendor/bin
 # export path to php 5.5 installationi
 export PATH=/usr/local/php5/bin:$PATH
 export PATH=/usr/local/Cellar/postgresql/9.3.4/bin:$PATH
+#export PATH=/usr/share/atlassian-plugin-sdk-5.0.13/apache-maven-3.2.1/bin/:$PATH
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/"
+export PATH=/usr/local/mysql/bin:$PATH
+export PATH=/Users/alan/activator-1.3.2:$PATH
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
 
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_05.jdk/Contents/Home"
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

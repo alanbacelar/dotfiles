@@ -73,6 +73,18 @@
 							"name": "TEST",
 							"cmd": "ssh polibras@192.168.6.102 -AX"
 						}
+					],
+
+					"Multitenancy": [
+						{
+							"name": "polixt99",
+							"cmd": "ssh polibras@polixt99.polibr.com.br -AX"
+						},
+
+						{
+							"name": "devxt01",
+							"cmd": "ssh polibras@devxt01.polibr.com.br -AX"
+						}
 					]
 				}
 			]
