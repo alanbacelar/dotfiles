@@ -49,7 +49,14 @@
 						"name": "Polibr20",
 						"cmd": "ssh alan@polibr20 -AX"
 				},
-
+				{
+						"name": "Polibr61",
+						"cmd": "ssh polibras@polibr61 -AX"
+				},
+				{
+						"name": "Jenkins",
+						"cmd": "ssh jenkins.polibrasnet.com.br -AX"
+				},
 				{
 					"Polibr99": [
 						{
@@ -62,7 +69,6 @@
 							"cmd": "ssh root@polibr99 -AX"
 						},
 					],
-
 					"SyncOn": [
 						{
 							"name": "Server",

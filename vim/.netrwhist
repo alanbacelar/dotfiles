@@ -1,10 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/Users/alan/Sites/polibras/dashboard/api'
-let g:netrw_dirhist_2='/Users/alan/dotfiles/oh-my-zsh/plugins'
-let g:netrw_dirhist_3='/Users/alan/dotfiles/oh-my-zsh/plugins/mysql-macports'
-let g:netrw_dirhist_4='/Users/alan/dotfiles'
-let g:netrw_dirhist_5='/home/web/web_library/Zend'
-let g:netrw_dirhist_6='/Users/alan/Sites/polibras'
-let g:netrw_dirhist_7='/home/web/web_library/Zend'
-let g:netrw_dirhist_8='/Users/alan/Sites/polibras/central-web-xt/application/modules/ftsl/views/scripts/baixa-remessa'
+let g:netrw_dirhist_cnt =0

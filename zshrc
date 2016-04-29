@@ -5,7 +5,8 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+#ZSH_THEME="robbyrussell"
+ZSH_THEME="honukai"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -60,12 +61,24 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"
 
+#PHP
+export PATH=/usr/local/php5/bin:$PATH
+
 #Postgres App configuration
-export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
+export PATH=/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH
 
 # Composer Vendors
 export PATH=$PATH:~/.composer/vendor/bin
 
+# Android SDK
+export PATH=$PATH:/Users/alan/Library/Android/sdk/platform-tools
+
+# JAVA SDK
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home
+#JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home
+export JAVA_HOME
+export PATH=$PATH:$JAVA_HOME/bin
+export PATH=/Library/Frameworks/Python.framework/Versions/3.5/bin:$PATH
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -86,13 +99,17 @@ export PATH=$PATH:~/.composer/vendor/bin
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 # export path to php 5.5 installationi
-export PATH=/usr/local/php5/bin:$PATH
-export PATH=/usr/local/Cellar/postgresql/9.3.4/bin:$PATH
+# export PATH=/usr/local/php5/bin:$PATH
+#export PATH=/usr/local/Cellar/php55/5.5.28/bin:$PATH
+#export PATH=/usr/local/Cellar/postgresql/9.3.4/bin:$PATH
 #export PATH=/usr/share/atlassian-plugin-sdk-5.0.13/apache-maven-3.2.1/bin/:$PATH
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/"
-export PATH=/usr/local/mysql/bin:$PATH
-export PATH=/Users/alan/activator-1.3.2:$PATH
-export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
+#export PATH=/usr/local/mysql/bin:$PATH
+#export PATH=/Users/alan/activator-1.3.2:$PATH
 
 ### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+#export PATH="/usr/local/heroku/bin:$PATH"
+
+
+export PATH=/Applications/Atlassian/atlassian-plugin-sdk-6.1.0/apache-maven-3.2.1/bin/:$PATH
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
