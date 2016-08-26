@@ -62,7 +62,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"
 
 #PHP
-export PATH=/usr/local/php5/bin:$PATH
+export PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH"
 
 #Postgres App configuration
 export PATH=/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH
@@ -97,18 +97,6 @@ export PATH=/Library/Frameworks/Python.framework/Versions/3.5/bin:$PATH
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
-
-# export path to php 5.5 installationi
-# export PATH=/usr/local/php5/bin:$PATH
-#export PATH=/usr/local/Cellar/php55/5.5.28/bin:$PATH
-#export PATH=/usr/local/Cellar/postgresql/9.3.4/bin:$PATH
-#export PATH=/usr/share/atlassian-plugin-sdk-5.0.13/apache-maven-3.2.1/bin/:$PATH
-#export PATH=/usr/local/mysql/bin:$PATH
-#export PATH=/Users/alan/activator-1.3.2:$PATH
-
-### Added by the Heroku Toolbelt
-#export PATH="/usr/local/heroku/bin:$PATH"
-
 
 export PATH=/Applications/Atlassian/atlassian-plugin-sdk-6.1.0/apache-maven-3.2.1/bin/:$PATH
 
